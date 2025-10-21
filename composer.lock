@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "858b787a00794b64ec99d77541797128",
+    "packages": [
+        {
+            "name": "kesleymartins/flark",
+            "version": "1.0.0",
+            "dist": {
+                "type": "path",
+                "url": "../flark",
+                "reference": "93311c4d5954ce438126988d020ab86c8971bf5c"
+            },
+            "require": {
+                "php": ">=8.4"
+            },
+            "bin": [
+                "bin/flark"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Flark\\": "src/"
+                }
+            },
+            "description": "Minha biblioteca de cache",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "kesleymartins/flark": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

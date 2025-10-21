@@ -1,0 +1,24 @@
+{
+    "name": "hat/tflark",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Hat\\Tflark\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kesleymartins",
+            "email": "kesley.martins@vivaldi.net"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../flark"
+        }
+    ],
+    "require": {
+        "kesleymartins/flark": "@dev"
+    }
+}
